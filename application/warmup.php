@@ -8,7 +8,7 @@ try {
         PRIMARY KEY (id)
     );');
 
-    $db->query('CREATE UNIQUE INDEX IF NOT EXISTS idx_url__identifier ON url ( identifier );');
+    $db->query('CREATE UNIQUE INDEX IF NOT EXISTS idx_url_identifier ON url ( identifier );');
 
     syslog(LOG_INFO, 'Created database table "url".');
 } catch (PDOException $e) {
