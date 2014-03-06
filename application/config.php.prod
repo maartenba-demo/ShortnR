@@ -1,0 +1,11 @@
+<?php
+$configuration = array(
+    'approoturl' => 'http://jetbrains-shortnr.azurewebsites.net',
+    'database' => array(
+        'host' => 'eu-cdbr-azure-north-b.cloudapp.net',
+        'port' => '3306',
+        'database' => 'cdb_cc28898b60',
+        'username' => 'bf1ed4c3a94850',
+        'password' => '22a5b661'
+    )
+);
