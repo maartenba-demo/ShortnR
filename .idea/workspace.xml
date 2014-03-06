@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="062a876f-b6b8-498f-ab4a-d49862afe187" name="Default" comment="" />
+    <list default="true" id="062a876f-b6b8-498f-ab4a-d49862afe187" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ShortnR.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="warmup.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="warmup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/warmup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="469" selection-end="469" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="578">
+            <state line="15" column="1" selection-start="469" selection-end="469" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
               <folding>
                 <marker date="1394095590905" expanded="true" signature="10:31" placeholder="SELECT ident..url..." />
                 <marker date="1394095590905" expanded="true" signature="54:234" placeholder="CREATE TABLE..IF..." />
@@ -35,10 +37,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Web.config" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/Web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="16" selection-start="658" selection-end="658" vertical-scroll-proportion="0.297593" vertical-offset="0" max-vertical-offset="914">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/pages/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="35" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-2.6153846" vertical-offset="595" max-vertical-offset="1496">
+            <state line="39" column="35" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1496">
               <folding>
                 <marker date="1394094993678" expanded="true" signature="69:120" placeholder="SELECT ident..url..." />
                 <marker date="1394094993678" expanded="true" signature="593:633" placeholder="SELECT url F..url..." />
@@ -57,7 +68,7 @@
       <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+            <state line="8" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -66,7 +77,7 @@
       <file leaf-file-name="perform_redirect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/perform_redirect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="544">
+            <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
               <folding>
                 <marker date="1394095520574" expanded="true" signature="145:185" placeholder="SELECT url F..url..." />
               </folding>
@@ -77,7 +88,7 @@
       <file leaf-file-name="PDO.php" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.423077" vertical-offset="164" max-vertical-offset="22899">
+            <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="22899">
               <folding />
             </state>
           </provider>
@@ -86,7 +97,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="615" selection-end="615" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="561">
+            <state line="16" column="52" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -98,7 +109,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="272">
+            <state line="10" column="2" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -115,7 +126,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="phing" />
       </map>
     </option>
   </component>
@@ -133,12 +144,19 @@
         <option value="$PROJECT_DIR$/application/warmup.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/public/Web.config" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <option name="servers">
       <server host="127.0.0.1" name="127.0.0.1" port="2222" />
+      <server deployment_server="8341996e-c377-4263-9fa8-23b2d6f4341f" host="jetbrains-shortnr.azurewebsites.net" name="ShortnR - Windows Azure" validation_dir="C:\Projects\Samples\ShortnR\public">
+        <path_mappings>
+          <path_mapping local_path="$PROJECT_DIR$" remote_path="/site" />
+          <path_mapping local_path="$PROJECT_DIR$/public" remote_path="/site/wwwroot" />
+        </path_mappings>
+      </server>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
@@ -207,26 +225,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShortnR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShortnR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -250,12 +254,13 @@
       <recent name="C:\Projects\Samples\ShortnR\public" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Run built-in web server">
+  <component name="RunManager" selected="PHP Web Application.Deploy and run on production">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -265,8 +270,10 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -279,7 +286,7 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="8341996e-c377-4263-9fa8-23b2d6f4341f" server_name="ShortnR - Windows Azure">
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -293,8 +300,23 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Deploy and run on production" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="ShortnR - Windows Azure">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method>
+        <option name="FtpUpload" enabled="true">
+          <server_id>8341996e-c377-4263-9fa8-23b2d6f4341f</server_id>
+          <server_name>ShortnR - Windows Azure</server_name>
+          <path>C:\Projects\Samples\ShortnR\application</path>
+          <path>C:\Projects\Samples\ShortnR\public</path>
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Run built-in web server" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.Deploy and run on production" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -325,34 +347,38 @@
       <created>1394096705284</created>
       <updated>1394096705284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added rewrite rukes">
+      <created>1394097785599</created>
+      <updated>1394097785599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29818955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18903089" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29818955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18903089" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11821086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11927582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -368,7 +394,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added rewrite rukes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rewrite rukes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,6 +410,73 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/warmup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+          <folding>
+            <marker date="1394095590905" expanded="true" signature="10:31" placeholder="SELECT ident..url..." />
+            <marker date="1394095590905" expanded="true" signature="54:234" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/pages/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="35" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1496">
+          <folding>
+            <marker date="1394094993678" expanded="true" signature="69:120" placeholder="SELECT ident..url..." />
+            <marker date="1394094993678" expanded="true" signature="593:633" placeholder="SELECT url F..url..." />
+            <marker date="1394094993678" expanded="true" signature="1084:1131" placeholder="INSERT INTO ..." />
+            <marker date="1394094993678" expanded="true" signature="1538:2497" placeholder="..." />
+            <marker date="1394094993678" expanded="true" signature="1601:2219" placeholder="..." />
+            <marker date="1394094993678" expanded="true" signature="1613:2207" placeholder="..." />
+            <marker date="1394094993678" expanded="true" signature="2278:2490" placeholder="..." />
+            <marker date="1394094993678" expanded="true" signature="2507:2571" placeholder="..." />
+            <marker date="1394094993678" expanded="true" signature="2526:2560" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/perform_redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
+          <folding>
+            <marker date="1394095520574" expanded="true" signature="145:185" placeholder="SELECT url F..url..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="22899">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config.php.dev">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/config.php.prod">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -402,14 +496,14 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.423077" vertical-offset="164" max-vertical-offset="22899">
+        <state line="21" column="6" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="22899">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="35" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-2.6153846" vertical-offset="595" max-vertical-offset="1496">
+        <state line="39" column="35" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1496">
           <folding>
             <marker date="1394094993678" expanded="true" signature="69:120" placeholder="SELECT ident..url..." />
             <marker date="1394094993678" expanded="true" signature="593:633" placeholder="SELECT url F..url..." />
@@ -426,14 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+        <state line="8" column="1" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/perform_redirect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="544">
+        <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
           <folding>
             <marker date="1394095520574" expanded="true" signature="145:185" placeholder="SELECT url F..url..." />
           </folding>
@@ -445,25 +539,32 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.8" vertical-offset="0" max-vertical-offset="272">
+        <state line="10" column="2" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="615" selection-end="615" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="561">
+        <state line="16" column="52" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/warmup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="469" selection-end="469" vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="578">
+        <state line="15" column="1" selection-start="469" selection-end="469" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
           <folding>
             <marker date="1394095590905" expanded="true" signature="10:31" placeholder="SELECT ident..url..." />
             <marker date="1394095590905" expanded="true" signature="54:234" placeholder="CREATE TABLE..IF..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="658" selection-end="658" vertical-scroll-proportion="0.297593" vertical-offset="0" max-vertical-offset="914">
+          <folding />
         </state>
       </provider>
     </entry>
