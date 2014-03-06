@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ShortnR" default="dummy">
+    <target name="properties" description="Determine target environment">
+        <propertyprompt promptText="Which environment do you want to deploy to?" propertyName="environment" defaultValue="local" useExistingValue="true" />
+
+        <property file="./deploy/${environment}.properties" />
+    </target>
+
+    <target name="versioning" description="Versioning">
+        <version file="${path.deploy}/version.txt" releasetype="Bugfix" property="deployment.version" />
+    </target>
+
+    <target name="dbmigrate-setupdbdeploy" description="Database Migrations - Setup dbdeploy" depends="properties">
+        <exec command="${tools.mysql} -h${database.host} -P${database.port} -u${database.username} -p${database.password} ${database.database} &lt; ${dbdeploy.initscript}"
+              dir="./"
+              checkreturn="true" />
+        <echo message="Created dbdeploy changelog table"/>
+    </target>
+
+    <target name="dbmigrate" description="Database Migrations" depends="properties,dbmigrate-setupdbdeploy">
+        <tstamp/>
+
+        <taskdef name="dbdeploy" classname="phing.tasks.ext.dbdeploy.DbDeployTask"/>
+
+        <property name="dbdeploy.deployfile" value="${path.deploy}/scripts/deploy-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
+        <property name="dbdeploy.undofile" value="${path.deploy}/scripts/undo-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
+
+        <dbdeploy
+                url="mysql:host=${database.host};port=${database.port};dbname=${database.database}"
+                userid="${database.username}"
+                password="${database.password}"
+                dir="${dbdeploy.deltas}"
+                outputfile="${dbdeploy.deployfile}"
+                undooutputfile="${dbdeploy.undofile}" />
+
+        <exec command="${tools.mysql} -h${database.host} -P${database.port} -u${database.username} -p${database.password} ${database.database} &lt; ${dbdeploy.deployfile}"
+              dir="./"
+              checkreturn="true" />
+    </target>
+
+    <target name="updateconfig" depends="properties" description="Create config.php">
+        <copy file="${path.application}/config.php.template" tofile="${path.application}/config.php" overwrite="true" haltonerror="true"/>
+
+        <reflexive>
+            <fileset dir="${path.application}">
+                <include pattern="config.php"/>
+            </fileset>
+            <filterchain>
+                <replaceregexp>
+                    <regexp pattern="'approoturl'.*=>.*'.*'," replace="'approoturl' => '${application.rooturl}'," />
+                    <regexp pattern="'host'.*=>.*'.*'," replace="'host' => '${database.host}'," />
+                    <regexp pattern="'port'.*=>.*'.*'," replace="'port' => '${database.port}'," />
+                    <regexp pattern="'database'.*=>.*'.*'," replace="'database' => '${database.database}'," />
+                    <regexp pattern="'username'.*=>.*'.*'," replace="'username' => '${database.username}'," />
+                    <regexp pattern="'password'.*=>.*'.*'," replace="'password' => '${database.password}'," />
+                </replaceregexp>
+            </filterchain>
+        </reflexive>
+
+        <echo message="Updated configuration file." />
+    </target>
+
+    <target name="deploy-common" depends="properties,versioning,dbmigrate,updateconfig" description="Common deployment steps">
+    </target>
+
+    <target name="deploy-inplace" depends="deploy-common" description="In-place deployment">
+        <echo message="Finished deployment." />
+    </target>
+
+    <target name="deploy-ftp" depends="deploy-common" description="FTP deployment">
+        <ftpdeploy host="${deployment.ftp.server}" port="${deployment.ftp.port}" username="${deployment.ftp.username}" password="${deployment.ftp.password}"
+                   dir="/site/application/" mode="ascii" clearFirst="true">
+            <fileset dir="${path.application}">
+                <include name="**"></include>
+            </fileset>
+        </ftpdeploy>
+        <ftpdeploy host="${deployment.ftp.server}" port="${deployment.ftp.port}" username="${deployment.ftp.username}" password="${deployment.ftp.password}"
+                   dir="/site/wwwroot/" mode="ascii" clearFirst="true">
+            <fileset dir="${path.public}">
+                <include name="**"></include>
+            </fileset>
+        </ftpdeploy>
+    </target>
+
+    <target name="deploy-local" depends="deploy-common" description="Local deployment">
+        <copy todir="${deployment.filesystem.target}/application">
+            <fileset dir="${path.application}">
+                <include name="**"></include>
+            </fileset>
+        </copy>
+        <copy todir="${deployment.filesystem.target}/public">
+            <fileset dir="${path.public}">
+                <include name="**"></include>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="gittag">
+        <!-- This is possible... -->
+        <gittag repository="./" name="ver1.0" force="true"/>
+    </target>
+
+    <target name="dummy">
+        <echo message="Seriously?" />
+    </target>
+</project>
