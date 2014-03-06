@@ -22,8 +22,8 @@
 
         <taskdef name="dbdeploy" classname="phing.tasks.ext.dbdeploy.DbDeployTask"/>
 
-        <property name="dbdeploy.deployfile" value="${path.deploy}/scripts/deploy-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
-        <property name="dbdeploy.undofile" value="${path.deploy}/scripts/undo-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
+        <property name="dbdeploy.deployfile" value="${dbdeploy.scripts}/deploy-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
+        <property name="dbdeploy.undofile" value="${dbdeploy.scripts}/undo-${deployment.version}-${DSTAMP}${TSTAMP}.sql" />
 
         <dbdeploy
                 url="mysql:host=${database.host};port=${database.port};dbname=${database.database}"
