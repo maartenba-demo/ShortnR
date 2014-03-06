@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062a876f-b6b8-498f-ab4a-d49862afe187" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/version-local.txt" />
-      <change type="MOVED" beforePath="C:\Projects\Samples\ShortnR\deploy\version.txt" afterPath="$PROJECT_DIR$/deploy/version-production.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/azure.properties" afterPath="$PROJECT_DIR$/deploy/azure.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy.xml" afterPath="$PROJECT_DIR$/deploy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/local.properties" afterPath="$PROJECT_DIR$/deploy/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/phing.xml" afterPath="$PROJECT_DIR$/.idea/phing.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/version-local.txt" afterPath="$PROJECT_DIR$/deploy/version-local.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/version-production.txt" afterPath="$PROJECT_DIR$/deploy/version-production.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShortnR.iws" />
@@ -33,16 +32,16 @@
       <file leaf-file-name="deploy.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+            <state line="23" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version-local.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="version-local.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/version-local.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -51,7 +50,7 @@
       <file leaf-file-name="version-production.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/version-production.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -60,7 +59,7 @@
       <file leaf-file-name="dbdeploy.sql" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/dbdeploy.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -78,16 +77,16 @@
       <file leaf-file-name="local.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/local.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="18" column="39" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="azure.properties" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="azure.properties" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/azure.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="107" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="28" column="26" selection-start="737" selection-end="737" vertical-scroll-proportion="0.78807944" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -143,16 +142,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/Web.config" />
         <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/deploy/dbdeploy.sql" />
         <option value="$PROJECT_DIR$/application/warmup.php" />
         <option value="$PROJECT_DIR$/db/deltas/0001-dbdeploy-init.sql" />
         <option value="$PROJECT_DIR$/db/deltas/0001-url-table.sql" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/application/config.php.template" />
         <option value="$PROJECT_DIR$/deploy/version.txt" />
-        <option value="$PROJECT_DIR$/deploy/azure.properties" />
+        <option value="$PROJECT_DIR$/deploy/dbdeploy.sql" />
         <option value="$PROJECT_DIR$/deploy/local.properties" />
         <option value="$PROJECT_DIR$/deploy.xml" />
+        <option value="$PROJECT_DIR$/deploy/version-local.txt" />
+        <option value="$PROJECT_DIR$/deploy/version-production.txt" />
+        <option value="$PROJECT_DIR$/deploy/azure.properties" />
       </list>
     </option>
   </component>
@@ -246,6 +247,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="deploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShortnR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShortnR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShortnR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShortnR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deploy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="azure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,7 +459,15 @@
       <created>1394102716022</created>
       <updated>1394102716022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated versioning approach">
+      <created>1394102835786</created>
+      <updated>1394102835786</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated database approach">
+      <created>1394103071278</created>
+      <updated>1394103071278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -461,7 +514,9 @@
     <MESSAGE value="Added rewrite rukes" />
     <MESSAGE value="Deployment with Phing &lt;3" />
     <MESSAGE value="Updated version file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated version file" />
+    <MESSAGE value="Updated versioning approach" />
+    <MESSAGE value="Updated database approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated database approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/dbdeploy.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="44" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="476">
@@ -682,37 +730,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/version-production.txt">
+    <entry file="file://$PROJECT_DIR$/deploy/dbdeploy.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/local.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/azure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="107" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="18" column="39" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
+        <state line="23" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/version-local.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/version-production.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/azure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="737" selection-end="737" vertical-scroll-proportion="0.78807944" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
