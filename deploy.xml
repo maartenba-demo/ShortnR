@@ -7,7 +7,7 @@
     </target>
 
     <target name="versioning" description="Versioning">
-        <version file="${path.deploy}/version.txt" releasetype="Bugfix" property="deployment.version" />
+        <version file="${deployment.versionfile}" releasetype="Bugfix" property="deployment.version" />
     </target>
 
     <target name="dbmigrate-setupdbdeploy" description="Database Migrations - Setup dbdeploy" depends="properties">
