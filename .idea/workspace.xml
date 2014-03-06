@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062a876f-b6b8-498f-ab4a-d49862afe187" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/deltas/0001-url-table.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/azure.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/dbdeploy.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/phing.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/version.txt" />
-      <change type="DELETED" beforePath="C:\Projects\Samples\ShortnR\application\config.php.prod" afterPath="" />
-      <change type="DELETED" beforePath="C:\Projects\Samples\ShortnR\application\warmup.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Projects\Samples\ShortnR\application\config.php.dev" afterPath="$PROJECT_DIR$/application/config.php.template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ShortnR.iml" afterPath="$PROJECT_DIR$/.idea/ShortnR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/phing.xml" afterPath="$PROJECT_DIR$/.idea/phing.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/version.txt" afterPath="$PROJECT_DIR$/deploy/version.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShortnR.iws" />
@@ -39,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.28764805" vertical-offset="918" max-vertical-offset="1887">
+            <state line="64" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="version.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/version.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
               <folding />
             </state>
           </provider>
@@ -150,9 +138,9 @@
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/deploy/local.properties" />
         <option value="$PROJECT_DIR$/application/config.php.template" />
-        <option value="$PROJECT_DIR$/deploy/version.txt" />
         <option value="$PROJECT_DIR$/deploy.xml" />
         <option value="$PROJECT_DIR$/deploy/azure.properties" />
+        <option value="$PROJECT_DIR$/deploy/version.txt" />
       </list>
     </option>
   </component>
@@ -406,17 +394,21 @@
       <created>1394097785599</created>
       <updated>1394097785599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deployment with Phing &lt;3">
+      <created>1394102481442</created>
+      <updated>1394102481442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22364217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,7 +416,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12034079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287234" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -451,7 +443,8 @@
     </option>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added rewrite rukes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rewrite rukes" />
+    <MESSAGE value="Deployment with Phing &lt;3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deployment with Phing &lt;3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/version.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="44" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="476">
@@ -695,7 +681,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.28764805" vertical-offset="918" max-vertical-offset="1887">
+        <state line="64" column="0" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
           <folding />
         </state>
       </provider>

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="PhingConfiguration">
     <buildFilePaths>
-      <buildFile options="" path="file://$PROJECT_DIR$/deploy.xml">
-        <option name="properties">
-          <list>
-            <property name="environment" value="local" />
-          </list>
-        </option>
-      </buildFile>
+      <buildFile options="" path="file://$PROJECT_DIR$/deploy.xml" />
     </buildFilePaths>
     <phingPath>$PROJECT_DIR$/.idea/phing-latest.phar</phingPath>
   </component>
