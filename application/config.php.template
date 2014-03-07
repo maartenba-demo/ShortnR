@@ -1,11 +1,11 @@
 <?php
 $configuration = array(
-    'approoturl' => 'approoturl',
+    'approoturl' => '#application.rooturl#',
     'database' => array(
-        'host' => 'host',
-        'port' => 'port',
-        'database' => 'database',
-        'username' => 'username',
-        'password' => 'password',
+        'host' => '#database.host#',
+        'port' => '#database.port#',
+        'database' => '#database.database#',
+        'username' => '#database.username#',
+        'password' => '#database.password#',
     )
 );
