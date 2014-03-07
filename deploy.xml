@@ -61,13 +61,13 @@
 
     <target name="deploy-ftp" depends="properties,versioning,dbmigrate,updateconfig" description="FTP deployment">
         <ftpdeploy host="${deployment.ftp.server}" port="${deployment.ftp.port}" username="${deployment.ftp.username}" password="${deployment.ftp.password}"
-                   dir="/site/application/" mode="binary" clearFirst="true">
+                   dir="/site/application/" mode="binary" clearFirst="true" level="verbose">
             <fileset dir="${path.application}">
                 <include name="**"></include>
             </fileset>
         </ftpdeploy>
         <ftpdeploy host="${deployment.ftp.server}" port="${deployment.ftp.port}" username="${deployment.ftp.username}" password="${deployment.ftp.password}"
-                   dir="/site/wwwroot/" mode="binary" clearFirst="true">
+                   dir="/site/wwwroot/" mode="binary" clearFirst="true" level="verbose">
             <fileset dir="${path.public}">
                 <include name="**"></include>
             </fileset>
